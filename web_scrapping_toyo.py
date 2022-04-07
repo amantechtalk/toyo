@@ -65,7 +65,7 @@ for link in soup.find_all(class_="list-inline"):
   a=link1.text.split("\n")
   a1.append(a[3])
  a2=a1
- print(link)
+ 
  with open('aman16.csv','a') as csvfile:
 
   writer =csv.writer(csvfile)
